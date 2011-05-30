@@ -1,0 +1,9 @@
+dev:
+  sf_assets:
+    compile: false
+
+all:
+  sf_assets:
+    timestamp: "<?php echo time(); ?>"
+    compile: true
+    compile_dir: /css/compiled
